@@ -1,1 +1,50 @@
 /* All styles for your Card Components live here */
+
+.banner-wrapper {
+    width: 650px;
+    /* border: 2px solid black; */
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    border-radius: 4px;
+}
+
+.card-container {
+    /* width: 97.5%; */
+    /* border: 1px solid red; */
+    margin-left: 80px;
+}
+
+.card-content {
+    border: .8px solid rgb(180, 180, 180);
+    border-radius: 5px;
+    height: 110px;
+    width: 552px;
+    padding-top: .5rem;
+}
+
+.second-title {
+    font-size: 1.1rem;
+    padding-left: 15px;
+}
+
+.text-bottom {
+    font-size: 1rem;
+    padding-left: 15px;
+    padding-top: .3rem;
+}
+
+.gray-text {
+    padding-left: 15px;
+    padding-top: .2rem;
+    color: rgb(141, 141, 141);
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
