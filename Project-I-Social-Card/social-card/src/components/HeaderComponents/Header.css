@@ -1,1 +1,53 @@
 /* All styles for your header Components live here */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app-container {
+    max-width: 650px;
+    /* border: 2px solid blue; */
+}
+
+.header {
+    display: flex;
+    width: 650px;
+    height: 120px;
+    /* border: 1px solid red; */
+}
+
+.mini-title {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: .5rem;
+    padding-top: .8rem;
+}
+
+.faded-top {
+    font-size: .9rem;
+    color: gray;
+    padding-left: .5rem;
+}
+
+.title-bar {
+    display: flex;
+    align-items: baseline;
+    /* border: 1px solid green; */
+}
+
+.logo-left {
+    width: 4.6rem;
+    height: 5.5rem;
+    padding-top: .75rem;
+}
+
+.header-content {
+    padding-left: .4rem;
+}
+
+.plain-text-top {
+    /* border: 1px solid orange; */
+}

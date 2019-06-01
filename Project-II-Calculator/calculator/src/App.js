@@ -1,21 +1,22 @@
 import React from 'react';
 import './App.css';
 
+import CalcDisplay from './components/DisplayComponents/CalculatorDisplay';
+
 const App = () => {
   return (
     <div>
-      <h3>Welcome to React Calculator</h3>
+      <h3>Welcome to Marco's Calculator</h3>
       <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
+        Marco Vargas built this calculator!
       </p>
       <p>
         <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
+          Does it actually work? Not yet, but will soon! haha
+          it looks great though right?
         </strong>
       </p>
+      <CalcDisplay />
     </div>
   );
 };
